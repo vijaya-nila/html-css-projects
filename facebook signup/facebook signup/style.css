@@ -1,0 +1,123 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+    }
+    .header h1 {
+      color: #1877f2;
+      font-size: 40px;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: white;
+      width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .form-container h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .form-container p {
+      margin: 5px 0 15px;
+      color: #606770;
+      font-size: 14px;
+    }
+
+    hr {
+      margin: 10px 0 20px;
+      border: 0.5px solid #ddd;
+    }
+
+    /* Input fields */
+    .name-fields {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 94%;
+      padding: 10px;
+      border: 1px solid #ccd0d5;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .dob {
+      margin-bottom: 15px;
+    }
+    .dob label {
+      display: block;
+      font-size: 12px;
+      color: #606770;
+      margin-bottom: 5px;
+    }
+    .dob select {
+      width: 32%;
+      padding: 8px;
+      border: 1px solid #ccd0d5;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .gender {
+      margin-bottom: 15px;
+    }
+    .gender label {
+      display: block;
+      font-size: 12px;
+      color: #606770;
+      margin-bottom: 5px;
+    }
+    .gender-options {
+      display: flex;
+      gap: 10px;
+    }
+    .gender-options label {
+      border: 1px solid #ccd0d5;
+      border-radius: 5px;
+      padding: 8px 10px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .signup-btn {
+      background-color: #42b72a;
+      border: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .signup-btn:hover {
+      background-color: #36a420;
+    }
+
+    .already {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .already a {
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+    }

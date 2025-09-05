@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>facebook</h1>
+  </div>
+
+  <div class="form-container">
+    <h2>Create a new account</h2>
+    <p>It's quick and easy.</p>
+    <hr>
+
+    <!-- Name Fields -->
+    <div class="name-fields">
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Surname">
+    </div>
+
+    <!-- Mobile / Email -->
+    <input type="email" placeholder="Mobile number or email address" style="margin-bottom:10px;">
+
+    <!-- Password -->
+    <input type="password" placeholder="New password" style="margin-bottom:10px;">
+
+    <!-- Date of Birth -->
+    <div class="dob">
+      <label>Date of birth</label>
+      <select>
+        <option>1</option><option>2</option><option>3</option>
+      </select>
+      <select>
+        <option>Jan</option><option>Feb</option><option>Mar</option>
+      </select>
+      <select>
+        <option>2000</option><option>2001</option><option>2002</option>
+      </select>
+    </div>
+
+    <!-- Gender -->
+    <div class="gender">
+      <label>Gender</label>
+      <div class="gender-options">
+        <label>Female <input type="radio" name="gender"></label>
+        <label>Male <input type="radio" name="gender"></label>
+        <label>Custom <input type="radio" name="gender"></label>
+      </div>
+    </div>
+
+    <!-- Signup Button -->
+    <button class="signup-btn">Sign Up</button>
+
+    <div class="already">
+      <a href="#">Already have an account?</a>
+    </div>
+  </div>
+
+</body>
+</html>

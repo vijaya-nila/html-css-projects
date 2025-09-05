@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="detail.css" type="text/css">
+</head>
+<body>
+        <div class="register">
+            <h3>Sign Up</h3>
+            <form onsubmit="showPopup(event)" >
+                <div class="input">
+                <label for="name">User Name</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input">
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="mail" required>
+                </div>
+                <div class="input">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" required max="8"[^A-Za-z0-9]>
+                </div>
+               <div class="ainput">
+                <input type="radio" id="gender" name="gender">Male
+                <input type="radio"id="gender" name="gender">Female
+               </div>
+               <div>
+                <button  style="background:#EDD892;">Register</button>
+
+               </div>
+                <script>
+              function showPopup(event)
+               {
+            event.preventDefault(); // ✅ form submit stop pannum
+            alert("🎉 Registration Successful!");
+        }
+    </script>
+            </form>
+
+        </div>
+</body>
+</html>
